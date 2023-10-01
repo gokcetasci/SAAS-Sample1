@@ -1,0 +1,21 @@
+footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: $primary1;
+    text-align: center;
+
+    .copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+        font-size: 16px;
+        font-weight: 500;
+        width: 1224px;
+        padding-top: 4px;
+        padding-left: 4px;
+        color: $primary2;
+        }
+    }
+}
