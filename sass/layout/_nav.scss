@@ -1,0 +1,61 @@
+body{
+    font-family: $font-family;
+}
+
+nav {
+    background-color: $primary1;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    .container {
+        max-width: 1224px;
+        height: 40px;
+        display: flex;
+        padding-right: 48px;
+        padding-left: 48px;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 100px;
+        margin-left: 100px;
+
+        .leftnav {
+            margin-right: 16px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+            a {
+                color: $primary2;
+                font-size: 20px;
+            }
+
+        }
+
+        .rightnav{
+            font-weight: 400;
+
+            .home{
+                color: $primary2;
+            }
+
+            .about, .contact, .services {
+                color: $primary3;
+
+                &:hover {
+                    color: $primary10;
+                }
+            }
+
+            a{
+                font-size: 16px;
+            }
+        }
+
+        a {
+            padding: 8px;
+            text-decoration: none;
+        }
+    }
+}
+
