@@ -1,0 +1,528 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #212529;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+nav .container {
+  max-width: 1224px;
+  height: 40px;
+  display: flex;
+  padding-right: 48px;
+  padding-left: 48px;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+nav .container .leftnav {
+  margin-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav .container .leftnav a {
+  color: #ffffff;
+  font-size: 20px;
+}
+nav .container .rightnav {
+  font-weight: 400;
+}
+nav .container .rightnav .home {
+  color: #ffffff;
+}
+nav .container .rightnav .about, nav .container .rightnav .contact, nav .container .rightnav .services {
+  color: rgba(255, 255, 251, 0.55);
+}
+nav .container .rightnav .about:hover, nav .container .rightnav .contact:hover, nav .container .rightnav .services:hover {
+  color: #ededed;
+}
+nav .container .rightnav a {
+  font-size: 16px;
+}
+nav .container a {
+  padding: 8px;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #212529;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.content .first {
+  width: 636px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.content .first h1 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+.content .first p {
+  margin-top: 0;
+  font-size: 20px;
+  color: #747283;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+.content .first .btnfirst {
+  margin-top: 24px;
+}
+.content .first .btnfirst #get {
+  margin-right: 16px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #ffffff;
+  background-color: #0D6EFD;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: larger;
+  border-width: 1px;
+  font-weight: 400;
+}
+.content .first .btnfirst #learn {
+  margin-left: 16px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #ffffff;
+  background-color: #212529;
+  border: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.boxes {
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxes .box {
+  width: 424px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+.boxes .box .icon {
+  margin-top: 0;
+  padding-bottom: 16px;
+}
+.boxes .box h2 {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.boxes .box p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.boxes .box a {
+  text-decoration: none;
+  color: #0D6EFD;
+}
+.boxes .box a img {
+  width: 16px;
+  height: 16px;
+}
+
+.pay {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee2e6;
+}
+.pay .baslik {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding-top: 96px;
+}
+.pay .baslik h2 {
+  padding-top: 4px;
+  height: 36px;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #212529;
+}
+.pay .baslik p {
+  padding-top: 5px;
+  padding-bottom: 53px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #212529;
+}
+.pay .plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding-bottom: 96px;
+  padding-left: 96px;
+  padding-right: 96px;
+}
+.pay .plans .plan {
+  padding: 48px;
+  width: 280px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dee2e6;
+  border-radius: 0.375rem;
+  background-color: #ffffff;
+}
+.pay .plans .plan .free {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: bolder;
+}
+.pay .plans .plan .dolar {
+  color: #212529;
+  font-size: 56px;
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
+.pay .plans .plan .dolar span {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-right: 0;
+  margin-left: -10px;
+}
+.pay .plans .plan .plans-content {
+  margin-bottom: 24px;
+}
+.pay .plans .plan .plans-content ul {
+  margin-bottom: 8px;
+}
+.pay .plans .plan .plans-content ul li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 16px;
+  display: list-item;
+  align-items: center;
+  color: #212529;
+}
+.pay .plans .plan .plans-content ul li span {
+  font-weight: bolder;
+}
+.pay .plans .plan .plans-content ul li img {
+  margin-right: 8px;
+}
+.pay .plans .plan .plans-content ul .monthly {
+  color: #6c757d;
+}
+.pay .plans .plan .plans-content ul .unlimited {
+  color: #6c757d;
+}
+.pay .plans .plan .plans-content ul .dedicated {
+  color: #6c757d;
+}
+.pay .plans .plan .plans-content ul .freel {
+  color: #6c757d;
+}
+.pay .plans .plan .choose1 a {
+  display: block;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0D6EFD;
+  border-radius: 0.375rem;
+  text-align: center;
+  background-color: #ffffff;
+  color: #0D6EFD;
+  width: 280px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.pay .plans .plan .choose1 a:hover {
+  background-color: #0D6EFD;
+  color: #ffffff;
+}
+.pay .plans .plan .choose2 a {
+  display: block;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0D6EFD;
+  border-radius: 0.375rem;
+  text-align: center;
+  background-color: #0D6EFD;
+  color: #ffffff;
+  width: 280px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.pay .plans .pro {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: bolder;
+}
+
+.customer-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.customer-container .boxcustomer {
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customer-container .boxcustomer .customer {
+  width: 1224px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.customer-container .boxcustomer .customer h2 {
+  font-size: 32px;
+  color: #212529;
+  font-weight: bolder;
+  padding-bottom: 8px;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.customer-container .boxcustomer .customer p {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.customer-container .boxcustomer .quotecontent {
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+  width: 1224px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.customer-container .boxcustomer .quotecontent #one {
+  margin-bottom: 24px;
+}
+.customer-container .boxcustomer .quotecontent .one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 24px;
+  width: 539px;
+  height: 97px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.375rem;
+  border-style: solid;
+  border-color: #dee2e6;
+  border-radius: 0.375rem;
+}
+.customer-container .boxcustomer .quotecontent .one img {
+  margin-bottom: 57px;
+}
+.customer-container .boxcustomer .quotecontent .one #thank {
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+  line-height: 1.5;
+}
+.customer-container .boxcustomer .quotecontent .one #client {
+  font-size: 14px;
+  margin-left: 24px;
+  color: #6c757d;
+}
+
+.get {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee2e6;
+  background-color: #f8f9fa;
+}
+.get .getin {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.get .getin .firstget {
+  width: 1224px;
+}
+.get .getin .firstget #mail {
+  margin-bottom: 16px;
+}
+.get .getin .firstget .yazi {
+  width: 1224px;
+  margin-bottom: 48px;
+}
+.get .getin .firstget .yazi h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #212529;
+  font-weight: bolder;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.get .getin .firstget .yazi p {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 300;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.get .getin .secondget {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 1224px;
+  justify-content: center;
+  align-items: center;
+}
+.get .getin .secondget input {
+  padding: 16px 12px;
+  width: 564px;
+  height: 26px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dee2e6;
+  border-radius: 0.375rem;
+  margin-bottom: 16px;
+}
+.get .getin .secondget #message {
+  height: 128px;
+}
+.get .getin .secondget a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #5f9ffc;
+  border-radius: 0.375rem;
+  text-align: center;
+  background-color: #5f9ffc;
+  color: #ffffff;
+  width: 588px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 48px;
+}
+
+footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #212529;
+  text-align: center;
+}
+footer .copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copy p {
+  font-size: 16px;
+  font-weight: 500;
+  width: 1224px;
+  padding-top: 4px;
+  padding-left: 4px;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */
