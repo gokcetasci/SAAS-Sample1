@@ -1,0 +1,92 @@
+.customer-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    .boxcustomer {
+        padding-left: 48px;
+        padding-right: 48px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .customer {
+            width: 1224px;
+            margin-bottom: 48px;
+            text-align: center;
+           
+
+            h2 {
+                font-size: 32px;
+                color: $primary1;
+                font-weight: bolder;
+                padding-bottom: 8px;
+                letter-spacing: 0.5px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+
+            p {
+                font-size: 20px;
+                color: $primary1;
+                font-weight: 300;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        }
+
+        .quotecontent {
+            padding-left: 24px;
+            padding-right: 24px;
+            box-sizing: border-box;
+            width: 1224px;
+            display: flex;   
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;         
+
+            #one {
+                margin-bottom: 24px;
+            }
+
+            .one {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                padding: 24px;
+                width: 539px;
+                height: 97px;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 0.375rem;
+                border-style: solid;
+                border-color: $primary8;
+                border-radius: 0.375rem;
+
+                img {
+
+                    margin-bottom: 57px;
+                }
+
+                #thank {
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                    margin-left: 24px;
+                    line-height: 1.5;
+
+                }
+
+                #client {
+                    font-size: 14px;
+                    margin-left: 24px;
+                    color: $primary6;
+
+                }
+            }
+        }
+    }
+}
